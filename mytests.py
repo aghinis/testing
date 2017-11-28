@@ -34,4 +34,3 @@ def test_complex():
     obs = mean(num_list)
     exp = NotImplemented
     assert obs == exp
-    
