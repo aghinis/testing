@@ -39,5 +39,5 @@ def test_numpy():
     import numpy as np
     num_list = np.random.uniform(0,1,10000)
     ours = mean(num_list)
-    nums = mean(num_list)
+    nums = np.mean(num_list)
     np.testing.assert_almost_equal(ours,nums)
